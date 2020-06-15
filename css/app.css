@@ -1,0 +1,46 @@
+.mycontainer {
+    border: 1px solid #D5CCFE;
+    margin: 10px;
+    max-width: 40%;
+}
+
+.header {
+    background: #B09FF9;
+    color: #280C0C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.todobox {
+    padding: 5px;
+}
+
+.col-xs-5 {
+    display: none;
+}
+
+.todobox:hover>.col-xs-5 {
+    display: block;
+}
+
+.todobox:nth-child(even) {
+    background: #F8F8FF
+}
+
+.todobox:nth-child(odd) {
+    background: #E7EFFF
+}
+
+.newtodobox {
+    margin: 5px;
+}
+
+#message {
+    margin: 2px;
+    color: red;
+}
+
+.glyphicon {
+    padding: 3px;
+}
